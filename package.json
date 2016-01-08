@@ -1,6 +1,9 @@
 {
-  "registry": "npm",
-  "dependencies": {
-    "vm-browserify": "0.0.4"
+  "main": "./vm.js",
+  "registry": "github",
+  "map": {
+    "./vm.js": {
+      "node": "@node/vm"
+    }
   }
 }
